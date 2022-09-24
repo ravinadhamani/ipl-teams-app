@@ -1,0 +1,33 @@
+.teamRegistrationTxt{
+    color: rgb(149, 0, 255);
+}
+
+.inputBoxes{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+.formStyle{
+    padding: 50px;
+    border: 1px solid black;
+    width: 600px;
+    position: absolute;
+    top:10%;
+    left: 20%;
+    background-color: aliceblue;
+}
+.nameStyles{
+    color: rgba(149, 0, 255, 0.674);
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.btnStyles{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}

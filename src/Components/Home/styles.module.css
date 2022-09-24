@@ -1,0 +1,218 @@
+#mainDiv {
+    background-color: rgb(185, 185, 230);
+    background-image: url('./img/ipl\ homepage.jpg');
+    height: 560px;
+    width: 1280px;
+
+}
+
+#header {
+    box-shadow: 1px 1px 1px 1px rgb(161, 160, 206);
+    height: 80px;
+    width: 100%;
+    background-color: rgb(59, 59, 223);
+}
+
+#headerdiv {
+    display: flex;
+
+}
+
+#logo {
+    width: 150px;
+    height: 80px;
+}
+
+#iplText {
+    text-align: center;
+    position: relative;
+    top: 19px;
+    margin: 20px;
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+}
+
+#teamsText {
+    text-align: center;
+    position: relative;
+    top: 19px;
+    margin: 20px;
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+}
+
+.headerBtns {
+    margin: 20px;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    border: 4px solid rgb(18, 18, 196);
+    color: rgb(102, 102, 223);
+    font-weight: 600;
+
+}
+
+
+#searchTeamInput {
+    margin: 20px;
+    height: 40px;
+    width: 240px;
+    border: 2px solid rgb(18, 18, 196);
+    color: rgb(102, 102, 223);
+    font-weight: 600;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.searchBtn {
+    margin: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border: 4px solid rgb(18, 18, 196);
+    color: rgb(102, 102, 223);
+    font-weight: 600;
+    position: relative;
+    left: 80px;
+}
+
+#slider1 {
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+}
+
+.sliderimg {
+    width: 80%;
+    height: 500px;
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+/* #cardsDiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+  
+} */
+
+/* .card {
+     width: calc((31%-16px));
+
+    height: 350px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px white;
+
+} */
+
+/* .card {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px orange;
+  } */
+.cardsDiv{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    height: 420px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px orange;
+  }
+
+
+.teamLogo {
+    width: 100%;
+    height: 65%;
+    border-radius: 25px;
+}
+
+.mainDivTeams {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SearchBar {
+    height: 50px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: large;
+}
+
+.inputTopDiv {
+    /* align-items: center; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+#allTeams {
+    color: white;
+    font-size: 35px;
+    margin-left: 550px;
+    text-shadow: 3px 3px black;
+}
+
+.cardImgs {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.imgText {
+    font-size: 26px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.logoutTxt{
+    position: absolute;
+    top: 10px;
+    left: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 8px;
+    color:  rgb(102, 102, 223);
+    font-weight: 500;
+    background-color: aliceblue;
+}
+.logoutBtn{
+    position: absolute;
+    top: 15px;
+    left: 90%;
+    padding: 8px;
+    color:  rgb(102, 102, 223);
+    font-weight: 500;
+    
+}
